@@ -61,7 +61,7 @@ header h1 {
 
 /*Main section styling*/
 h2:first-of-type {
-    margin-top: 45px;
+    margin-top: 5px;
     margin-bottom: 5px;
 }
 .lesson-links {
@@ -89,7 +89,7 @@ footer {
     background-color: #33455C;
     border-radius: 0 0 3px 3px;
     padding: .5em;
-    margin-top: 45px;
+    margin-top: 20px;
 }
 
 footer p {
