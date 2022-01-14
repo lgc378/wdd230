@@ -1,0 +1,22 @@
+@media only screen and (min-width: 710px) {
+  /*Basic Element Styles*/
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 2em;
+  }
+
+  /*Background and Main Section Styles*/
+  #content {
+    max-width: 1000px;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+}

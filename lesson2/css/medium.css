@@ -1,0 +1,25 @@
+@media only screen and (min-width: 450px) and (max-width: 710px) {
+  /*Basic Element Styles*/
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 2em;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  .hicks-law {
+    grid-column: span 2;
+  }
+
+  .hicks-law img {
+    width: 100%;
+  }
+}

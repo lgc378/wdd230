@@ -1,0 +1,176 @@
+/*Site Colors:
+Primary:   #33455C
+Secondary: #DFCDBF
+Accent 1:  #6A2915
+Accent 2:  #C3D5C9
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Basic Element Styles*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #33455C;
+  font-family: "Kalam", "Times New Roman", Serif;
+  font-size: 1.7em;
+}
+
+a {
+  color: #6A2915;
+  font-weight: 300;
+  font-style: italic;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #33455C;
+  color: #DFCDBF;
+  font-weight: 300;
+  padding: 1px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*Header Styling*/
+header {
+  background-color: #33455C;
+  text-align: center;
+  border-radius: 3px 3px 0 0;
+  padding: 1em;
+}
+
+header h1 {
+  color: #DFCDBF;
+  font-size: 2.5em;
+  margin: 8px;
+}
+
+header p {
+  color: #DFCDBF;
+  font-family: "Kalam", "Times New Roman", Serif;
+  font-size: 1.7em;
+}
+
+/*Background and Main Section Styles*/
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  background-color: #DFCDBF;
+}
+
+#content {
+  margin: 0 auto;
+  background-color: #FFF;
+  border-radius: 3px;
+}
+
+main {
+  color: #33455C;
+  padding: 20px;
+}
+
+main p:first-of-type {
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+/*Column 1 - Visual Hierarchy*/
+.visual-hierarchy {
+  margin-bottom: 10px;
+  border: 2px solid #DFCDBF;
+}
+
+.visual-hierarchy * {
+  padding: 5px 5px 5px 15px;
+}
+
+.visual-hierarchy h2 {
+  background-color: #DFCDBF;
+  color: #33455C;
+  padding: 8px 4px 4px 15px;
+}
+
+.visual-hierarchy a:hover {
+  margin: 5px 5px 5px 15px;
+}
+
+.visual-hierarchy img {
+  padding: 0;
+  margin: 8px auto;
+}
+
+/*Column 2 - Contrast*/
+.contrast {
+  border: 2px solid #DFCDBF;
+  margin-bottom: 10px;
+}
+
+.contrast * {
+  padding: 5px 5px 5px 15px;
+}
+
+.contrast h2 {
+  background-color: #DFCDBF;
+  color: #33455C;
+  padding: 8px 4px 4px 5px;
+}
+
+.contrast a:hover {
+  margin: 5px 5px 5px 15px;
+}
+
+.contrast img {
+  padding: 0;
+  margin: 8px auto;
+}
+
+/*Column 3 - Hick's Law*/
+.hicks-law {
+  border: 2px solid #DFCDBF;
+  margin-bottom: 10px;
+}
+
+.hicks-law * {
+  padding: 5px 5px 5px 15px;
+}
+
+.hicks-law h2 {
+  background-color: #DFCDBF;
+  color: #33455C;
+  padding: 8px 4px 4px 5px;
+}
+
+.hicks-law a:hover {
+  margin: 5px 5px 5px 15px;
+}
+
+.hicks-law img {
+  padding: 0;
+  margin: 8px auto;
+}
+
+/*footer styling*/
+footer {
+  background-color: #33455C;
+  border-radius: 0 0 3px 3px;
+  padding: .7em;
+  margin-top: 20px;
+}
+
+footer p {
+  color: #DFCDBF;
+  text-align: center;
+  font-size: .75em;
+}
+
+#lastmod {
+  color: #DFCDBF;
+}

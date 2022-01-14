@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-
 /*Site Colors:
 Primary:   #33455C
 Secondary: #DFCDBF
@@ -14,90 +12,91 @@ h3,
 h4,
 h5,
 h6 {
-    color: #33455C;
-    font-family: "Kalam", "Times New Roman", Serif;
-    font-size: 2em;
+  color: #33455C;
+  font-family: "Kalam", "Times New Roman", Serif;
+  font-size: 2em;
 }
 
 /*Background and Main Section Styles*/
 body {
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
-    padding: 20px;
-    background-color: #DFCDBF;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  padding: 20px;
+  background-color: #DFCDBF;
 }
 
 #content {
-    max-width: 500px;
-    margin: 0 auto;
-    background-color: #FFF;
-    border-radius: 3px;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #FFF;
+  border-radius: 3px;
 }
 
 main {
-    color: #33455C;
-    padding: 20px;
+  color: #33455C;
+  padding: 20px;
 }
 
 /*Header Styling*/
 header {
-    display: grid;
-    grid-template-columns: 35% 65%;
-    grid-gap: 1.5em;
-    background-color: #33455C;
-    align-items: center;
-    border-radius: 3px 3px 0 0;
-    padding: 1em;
-}
-
-header h1 {
-    color: #DFCDBF;
-    font-size: 2.5em;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-gap: 1.5em;
+  background-color: #33455C;
+  align-items: center;
+  border-radius: 3px 3px 0 0;
+  padding: 1em;
 }
 
 .header-img {
-    border-radius: 150px;
-    justify-self: right;
+  border-radius: 150px;
+  justify-self: right;
+  width: 110px;
+}
+
+header h1 {
+  color: #DFCDBF;
+  font-size: 2.5em;
 }
 
 /*Main section styling*/
 h2:first-of-type {
-    margin-top: 5px;
-    margin-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .lesson-links {
-    border-top: 1px solid #33455C;
-    border-bottom: 1px solid #33455C;
+  border-top: 1px solid #33455C;
+  border-bottom: 1px solid #33455C;
 }
 
 .lesson-links ul {
-    padding-left: 0;
-    list-style: none;
+  padding-left: 0;
+  list-style: none;
 }
 
 li a {
-    color: #6A2915;
-  }
+  color: #6A2915;
+}
 
 li a:hover {
-    background-color: #33455C;
-    color: #DFCDBF;
-    padding: 1px;
+  background-color: #33455C;
+  color: #DFCDBF;
+  padding: 1px;
 }
 
 /*footer styling*/
 footer {
-    background-color: #33455C;
-    border-radius: 0 0 3px 3px;
-    padding: .5em;
-    margin-top: 20px;
+  background-color: #33455C;
+  border-radius: 0 0 3px 3px;
+  padding: .5em;
+  margin-top: 20px;
 }
 
 footer p {
-    color: #DFCDBF;
-    text-align: center;
-    font-size: .75em;
+  color: #DFCDBF;
+  text-align: center;
+  font-size: .75em;
 }
 
 #lastmod {
-    color: #DFCDBF;
+  color: #DFCDBF;
 }

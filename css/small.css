@@ -1,0 +1,35 @@
+/*Styling for smaller screens*/
+@media only screen and (max-width: 32.5em) {
+
+  /*Shrink headings sizes to limit 
+  text wrapping*/
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 1.5em;
+  }
+
+  /*Remove background color to increase
+  screen visability*/
+  body {
+    padding: 0;
+  }
+  
+  /*Change header to a block style
+  and center items*/
+  header {
+    display: block;
+  }
+  .header-img {
+    display: block;
+    width: 130px;
+    margin: 0 auto;
+  } 
+  header h1 {
+    text-align: center;
+    margin: 20px 0 5px 0;
+  }
+}
