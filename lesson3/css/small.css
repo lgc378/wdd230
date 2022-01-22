@@ -1,0 +1,121 @@
+/*Style Variables*/
+:root {
+  /*Colors*/
+  --primary-color: #33455C;
+  --secondary-color: #A4B6B5;
+  --accent1-color: #D89F5C;
+  --accent2-color: #394041;
+  /*Fonts*/
+  --heading-font: "Montserat 700", Arial, sans-serif;
+  --paragraph-font: "Open Sans", Helvetica, sans-serif;
+  
+  --headline-color-on-white: #33455C;  /* headlines on a white background */ 
+  --headline-color-on-color: #A4B6B5; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #33455C; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #A4B6B5; /* paragraph text on a colored back */ 
+  --paragraph-background-color: #394041;
+  --nav-link-color: #A4B6B5;
+  --nav-background-color: #33455C;
+  --nav-hover-link-color: #D89F5C;
+  --nav-hover-background-color: #33455C;
+}
+
+/*Background and Main Elements*/
+html {
+  background-color: var(--secondary-color);
+}
+body {
+  max-width: 940px;
+  margin: 0 auto;
+  background-color: #FFF;
+}
+
+main {
+  padding: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+}
+img {
+  width: 400px;
+}
+p {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color);
+  padding: 1em;
+}
+
+/* Header */
+header {
+  max-width: 960px;
+  background-color: var(--nav-background-color);
+  display: flex;
+  padding: 1.5em;
+  
+}
+.logo-box img {
+  width: 150px;
+
+}
+
+/* Navigation and Nav Links */
+nav {
+  line-height: 3em;
+  font-size: 1.2em;
+  margin: auto 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav a {
+  color: var(--nav-link-color);
+  padding: 1em;
+  min-width: 70px;
+  text-decoration: none;
+  font-family: var(--paragraph-font);
+}
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+nav .current {
+  text-decoration: underline;
+}
+
+
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: auto;
+  text-align: center;
+}
+.colors th {
+  background-color: #999;
+}
+.colors td{
+  width: 25%;
+  height: 3em;
+}
+
+.primary {
+  background-color: var(--primary-color);
+}
+.secondary {
+  background-color: var(--secondary-color);
+}
+.accent1 {
+  background-color: var(--accent1-color);
+}
+.accent2{
+  background-color: var(--accent2-color);
+}
+
+p.colored {
+  background-color: var(--paragraph-background-color);
+  color: var(--paragraph-color-on-color);
+}
