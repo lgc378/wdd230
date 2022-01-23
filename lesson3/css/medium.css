@@ -1,0 +1,33 @@
+@media only screen and (min-width: 453px) {
+  body {
+    max-width: 960px;
+  }
+
+  img {
+    width: 400px;
+  }
+ 
+
+  /* Header */
+  header {
+    max-width: 960px;
+  }
+
+  .logo-box {
+    margin: 0 auto;
+  }
+
+  /* Navigation and Nav Links */
+  nav {
+    line-height: 3em;
+    font-size: 1em;
+    margin: auto 0;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+
+}
